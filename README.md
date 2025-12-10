@@ -1,129 +1,56 @@
-# 📱 iOS 5–9 Hacktivation Tool
+# iOS 5–10 Hacktivation Tool
 
 **Author:** [maksimka539](https://github.com/maksimka539)\
-**Compatibility:** iOS 5.0 – 9.3.6 (32-bit devices only)\
+**Compatibility:** iOS 5.0 – 10.3.4 (32-bit devices only)\
 **Purpose:** Bypass iCloud activation screen using SSH Ramdisk method.
 
 ---
 
-## 🧩 What is this?
+## What is this?
 
-This tool is designed for **iCloud-locked 32-bit iOS devices** running iOS 5–9.\
+This tool is designed for **iCloud-locked devices** running iOS 5–10. (64bit not tested)\
 It uses an **SSH Ramdisk**, loaded via [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit), to patch system files and simulate activation.\
-No activation files are required — everything is done directly via SSH.
+No activation files are required — everything is done directly via SSH!
 
----
+## Requirements
 
-## ✅ Supported iOS Versions
-
-| iOS Version | Activation Method                                                |
-| ----------- | ---------------------------------------------------------------- |
-| iOS 5–6     | Replace `lockdownd` with patched version                         |
-| iOS 7–10    | Patch `MobileGestalt` and remove `Setup.app`                     |
-
----
-
-## 🛠 Requirements
-
-### 📦 Dependencies
-
-Install the required tools:
-
-**macOS (Homebrew):**
-
-```bash
-brew install sshpass libimobiledevice
-```
-
-**Linux (APT, for Debian/Ubuntu):**
-
-```bash
-sudo apt update
-sudo apt install sshpass libimobiledevice-utils
-```
-
-Also ensure these are installed:
-
-- `ssh`
-- `scp`
-- `nc`
-- `bash`
-
----
-
-### 🧰 You will also need
-
-1. **Legacy iOS Kit**\
+### You need
+ **Legacy iOS Kit**\
    Used to create and launch the SSH Ramdisk.\
    → [https://github.com/LukeZGD/Legacy-iOS-Kit](https://github.com/LukeZGD/Legacy-iOS-Kit)
 
-2. **SSH Ramdisk Mode**\
-   Enter this mode using Legacy iOS Kit.\
-   After launching, the device will be accessible at `127.0.0.1:6414` via SSH.\
-   Remember to click **Connect to SSH**.
-
-3. **Mounted Filesystem**\
-   Before running the script, make sure the device's filesystems are mounted.\
-   In the SSH window, run:
-
-```bash
-mount.sh
-```
-
 ---
 
-## 📁 Folder Structure
+## Usage Instructions
 
-```
-ios_5_10_hacktivation_tool/
-├── hacktivate.sh            # Main script
-└── lockdownd                # Required only for iOS 5–6
-```
+1. **Download and unzip the tool:**
 
----
-
-## 🚀 Usage Instructions
-
-1. 📥 **Download and unzip the tool:**
-
-```bash
-unzip ios_5_10_hacktivation_tool.zip
-cd ios_5_10_hacktivation_tool
-chmod +x hacktivate.sh
-```
-
-2. 🔧 **Run SSH Ramdisk using Legacy iOS Kit**\
-   The device must be in **SSH mode** (port 6414).\
+2. **Run SSH Ramdisk using Legacy iOS Kit**\
+   The device must be in **SSH mode** (port 6414). Remember to click **Connect to SSH** and type mount.sh in LIK window.\
    See: [Legacy iOS Kit SSH Ramdisk Guide](https://github.com/LukeZGD/Legacy-iOS-Kit/wiki/SSH-Ramdisk)
 
-3. 🗂 **Connect to SSH and mount filesystems:**
 
-```bash
-ssh -p 6414 root@127.0.0.1
-mount.sh
-```
-
-4. 📌 **Without closing the SSH window**, open a new terminal window, navigate to the folder containing the script, and run it:
+3. **Without closing the LIK window**, open a new terminal window, navigate to the folder containing the script, and run it:
 
 ```bash
 ./hacktivate.sh
 ```
 
-5. ⌨️ **Enter the iOS version** when prompted (e.g., `6.1.3`, `8.4.1`, `9.3.5`).
+---
+
+## Important 
+
+- This tool **does not remove iCloud lock**, it only activate and bypasses the activation screen. Signal will not work.
 
 ---
 
-## ⚠️ Important Notes
-
-- Works only on **32-bit devices** (iPhone 4, 4s, 5; iPad 2/3/4; iPad mini 1; iPod touch 4/5).
-- **Does not** support 64-bit devices (iPhone 5s and newer).
-- This **does not remove iCloud lock**, it only bypasses the activation screen. Signal will not work.
-
----
-
-## 💬 Credits & Contact
+## Credits & Contact
 
 Author: [**@maksimka539**](https://github.com/maksimka539)\
+**Donate:** \
+**TONCOIN:** UQB97hrGbiF7my3BykAm-QNWzhFamBLtHCB6myhygLS7M9t3 \
+**Ozon банк:** 2204320377216017 \
+
 Credits to [**iPh0ne4s**](https://github.com/iPh0ne4s) for the [**lockdownd**](https://github.com/iPh0ne4s/iOS-5-6-Hacktivation) file.
 
 Feel free to open Issues or Pull Requests for suggestions and improvements.
