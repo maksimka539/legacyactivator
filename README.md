@@ -1,9 +1,9 @@
-# iOS 5–10 Hacktivation Tool
+# Legacy iOS Activator
 
 **Author:** [maksimka539](https://github.com/maksimka539)\
 **Compatibility:** iOS 5.0 – 10.3.4 (32-bit devices only)\
 **Purpose:** Bypass iCloud activation screen using SSH Ramdisk method.
-
+**Telegram:** https://t.me/legacyactivator
 ---
 
 ## What is this?
