@@ -3,7 +3,7 @@
 **Author:** [maksimka539](https://github.com/maksimka539)\
 **Compatibility:** iOS 5.0 – 10.3.4\
 **Purpose:** Bypass iCloud activation screen using SSH Ramdisk method.\
-**Telegram:** https://t.me/legacyactivator
+**Telegram channel**: [**t.me/legacyactivator**](https://t.me/legacyactivator)
 ---
 
 ## What is this?
@@ -26,7 +26,7 @@ No activation files are required — everything is done directly via SSH!
 1. **Download and unzip the tool:**
 
 2. **Run SSH Ramdisk using Legacy iOS Kit**\
-   The device must be in **SSH mode** (port 6414). Remember to click **Connect to SSH** and type mount.sh in LIK window.\
+   The device must be in **SSH mode** (port 6414).\
    See: [Legacy iOS Kit SSH Ramdisk Guide](https://github.com/LukeZGD/Legacy-iOS-Kit/wiki/SSH-Ramdisk)
 
 
@@ -46,10 +46,11 @@ No activation files are required — everything is done directly via SSH!
 
 ## Credits & Contact
 
-Author: [**@maksimka539**](https://github.com/maksimka539)\
+**Author**: [**@maksimka539**](https://github.com/maksimka539)\
+**Telegram channel**: [**t.me/legacyactivator**](https://t.me/legacyactivator) \
 **Donate:** \
 **TONCOIN:** UQB97hrGbiF7my3BykAm-QNWzhFamBLtHCB6myhygLS7M9t3 \
-**Ozon банк:** 2204320377216017 \
+**Ozon банк:** 2204320377216017
 
 Credits to [**iPh0ne4s**](https://github.com/iPh0ne4s) for the [**lockdownd**](https://github.com/iPh0ne4s/iOS-5-6-Hacktivation) file.
 
