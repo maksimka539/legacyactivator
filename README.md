@@ -2,7 +2,7 @@
 
 **Author:** [maksimka539](https://github.com/maksimka539)\
 **Compatibility:** iOS 5.0 – 10.3.4\
-**Purpose:** Bypass iCloud activation screen using SSH Ramdisk method.\
+**Purpose:** Bypass iCloud activation screen or remove Disable lock to be able to enter a password\
 **Telegram channel**: [**t.me/legacyactivator**](https://t.me/legacyactivator)
 ---
 
@@ -25,8 +25,8 @@ No activation files are required — everything is done directly via SSH!
 
 1. **Download and unzip the tool:**
 
-2. **Run SSH Ramdisk using Legacy iOS Kit**\
-   The device must be in **SSH mode** (port 6414).\
+2. **Put your device in DFU mode**\
+   The device must be in **DFU mode** (port 6414).\
    See: [Legacy iOS Kit SSH Ramdisk Guide](https://github.com/LukeZGD/Legacy-iOS-Kit/wiki/SSH-Ramdisk)
 
 
