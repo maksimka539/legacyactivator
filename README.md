@@ -3,7 +3,7 @@
 **Author:** [maksimka539](https://github.com/maksimka539)\
 **Compatibility:** iOS 5.0 – 10.3.4\
 **Purpose:** Bypass iCloud activation screen or remove Disable lock to be able to enter a password\
-**Telegram channel**: [**t.me/legacyactivator**](https://t.me/legacyactivator)
+**Telegram channel**: https://t.me/phoenixactivator
 ---
 
 ## What is this?
@@ -47,7 +47,7 @@ No activation files are required — everything is done directly via SSH!
 ## Credits & Contact
 
 **Author**: [**@maksimka539**](https://github.com/maksimka539)\
-**Telegram channel**: [**t.me/legacyactivator**](https://t.me/legacyactivator) \
+**Telegram channel**: https://t.me/phoenixactivator \
 **Donate:** \
 **TONCOIN:** UQB97hrGbiF7my3BykAm-QNWzhFamBLtHCB6myhygLS7M9t3 \
 **Ozon банк:** 2204320377216017
