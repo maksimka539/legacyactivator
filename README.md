@@ -1,4 +1,4 @@
-# Legacy iOS Activator
+# Phoenix Ramdisk (Legacy iOS Activator)
 
 **Author:** [maksimka539](https://github.com/maksimka539)\
 **Compatibility:** iOS 5.0 – 10.3.4\
@@ -14,7 +14,7 @@ No activation files are required — everything is done directly via SSH!
 
 ## Requirements
 
-### You need
+### You need (OLD VERSION! NEW IN TELEGRAM)
  **Legacy iOS Kit**\
    Used to create and launch the SSH Ramdisk.\
    → [https://github.com/LukeZGD/Legacy-iOS-Kit](https://github.com/LukeZGD/Legacy-iOS-Kit)
